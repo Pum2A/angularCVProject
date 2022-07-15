@@ -18,24 +18,34 @@ header{
     color: #fff;
     padding-top: 5px;
 }
-.blocks-container{
-    display: flex;
-    justify-content: center;
-}
-.block{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
-    margin: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.block span{
-    display: flex;
-    justify-content: center;
-    margin-top: 85px;
-    font-size: 1.4rem;
+// .blocks-container{
+//     display: flex;
+//     justify-content: center;
+// }
+
+
+// .block{
+//     width: 200px;
+//     height: 200px;
+//     background-color: rgb(255, 255, 255);
+//     margin: 50px;
+//     border-radius: 50%;
+//     cursor: pointer;
     
-    
-}
+// }
+// .block span{
+//     display: flex;
+//     justify-content: center;
+//     margin-top: 85px;
+//     font-size: 1.2rem;
+//     user-select: none;
+
+// }
+
+// .block-description{
+//     color: #fff;
+//     text-align: center;
+//     font-size: 1.5rem;
+
+// }
 

@@ -12,4 +12,18 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  readme:boolean = true;
+
+  showme:boolean = false;
+  showmee:boolean = false;
+
+  buttonFunction(){
+    this.readme = !this.readme;
+    this.showme = !this.showme;
+  }
+  buttonFunction2(){
+    this.readme = !this.readme;
+    this.showmee = !this.showmee;
+  }
+
 }

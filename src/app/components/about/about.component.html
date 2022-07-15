@@ -1,1 +1,31 @@
-<p>about works!</p>
+<header>
+   <p class="header-text">
+       I'm Student in Technikum TEB EDUKACJA in Kraków, im 17 years old and i want to be in future a frontend developer.
+   </p> 
+   <h2>Technologies which i<strong class='text-strong-color'>  use to  </strong> or im learning.</h2>
+
+   <div class="icons-container">
+       <div class="icons">
+        <button (click)="onClick()" type="button">
+            <img src="../../../assets/img/htmlLogo.png" class="htmlLogo" alt="htmlLogo">
+            <p class="button-text-html" *ngIf="visible">HTML</p>
+        </button>
+        <button (click)="onClick2()" type="button">
+            <img src="../../../assets/img/cssLogo.png" class="cssLogo" alt="cssLogo">
+            <p class="button-text-html" *ngIf="visible2" >CSS</p>
+        </button>
+        <button  (click)="onClick3()" type="button">
+            <img src="../../../assets/img/sassLogo.png" alt="sassLogo">
+            <p class="button-text-html" *ngIf="visible3">SASS</p>
+        </button>
+        <button  (click)="onClick4()" type="button">
+            <img src="../../../assets/img/jsLogo.png" class="jsLogo"alt="jsLogo">
+            <p class="button-text-html" *ngIf="visible4">JS</p>
+        </button>
+        <button (click)="onClick5()" type="button">
+            <img src="../../../assets/img/angularLogo.png" class="angularLogo" alt="angularLogo">
+            <p class="button-text-html" *ngIf="visible5">ANGULAR</p>
+        </button>
+    </div>
+   </div>
+</header>

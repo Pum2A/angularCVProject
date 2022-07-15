@@ -1,0 +1,71 @@
+$primary-color: #fff;
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 92vh;
+    width: 100%;
+}
+.header-text{
+    color: $primary-color;
+    margin: 0;
+    display: flex;
+    justify-content: center;   
+    font-size: 1.2rem;
+    padding-top: 84px;
+}
+h2{
+    color: $primary-color;
+    margin: 0;
+    display: flex;
+    justify-content: center;   
+    font-size: 2rem;
+    padding-top: 38px;
+}
+.text-strong-color{
+    color: red;
+    margin: 0px 5px 0px 5px;
+}
+.icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+
+.icons img {
+    border-bottom: 4px solid #fff;
+    cursor: pointer;
+    padding: 13px;
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    transition: 0.4s;
+    margin: 15px;
+    user-select: none;
+}
+
+.angularLogo{
+    width: 55px;
+    margin-top: 16px;
+}
+
+.icons img:hover{
+    border: 2px solid purple;
+    transition: 0.4s;
+}
+button{
+    border: none;
+    background-color: #000;
+}
+
+.button-text-html{
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+}
+
+
